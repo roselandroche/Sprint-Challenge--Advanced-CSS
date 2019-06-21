@@ -8,3 +8,15 @@
 .rounded () {
     border-radius: 5px;
 }
+
+.btn-class(@width, @background, @text){
+    width: @width;
+    background-color: @background;
+    color: @text;
+    
+    
+    &:hover{
+      background-color: @text;
+      color: @background;
+      }
+  }
