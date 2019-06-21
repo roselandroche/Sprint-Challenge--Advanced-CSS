@@ -165,8 +165,9 @@ p {
   display: flex;
   flex-direction: column;
   height: 100px;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  background-color: #F6F6F6;
 }
 .top-bar h1 {
   font-size: 4rem;
@@ -174,6 +175,8 @@ p {
 .top-bar nav a {
   text-decoration: none;
   font-size: 1.6rem;
+  color: #22283A;
+  margin: 0 15px;
 }
 footer {
   color: #22283B;
