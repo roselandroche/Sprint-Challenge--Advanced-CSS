@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An adaptive website uses breakpoints to style for different device sizes, but it doesn't incorporate responsive sizing for anything inbetween.
+
+A fully responsive website uses breakpoints as well, but it also uses responsive sizing so things don't look bad between device sizes.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Desktop first is created using "max-size", and the default styling is for desktop. Mobile first is created with "min-size", and the default styling is for mobile. People decide which to go with based on what they want to load faster depending on their target audience.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+It creates a base size for us that is easier to convert. Changing pixels to rems just requires dividing by 10, so it's very simple compared to other options.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+We created a way to write CSS in an easier, more readable way, but the computer can only read the original syntax. Preprocessing is how we convert the more readable syntax into what the computer understands.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I like nesting and escaping in conjunction. It makes it so much easier to quickly find and change the relevant items for a breakpoint. I don't think I have any particular problems with the concepts, but I am still finding myself forgetting syntax and mixing up variable names etc. I'm quickly learning to check syntax and names often to make sure I don't mess things up.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -116,7 +128,7 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [x] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
 
-* [ ] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
+* [x] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
 
 * [ ] Push your changes and create a pull request if you haven't already.
 
