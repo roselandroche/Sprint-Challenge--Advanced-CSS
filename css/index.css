@@ -1,3 +1,8 @@
+@keyframes stretch {
+  50% {
+    height: 200px;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -168,6 +173,8 @@ p {
   justify-content: space-around;
   align-items: center;
   background-color: #F6F6F6;
+  animation-name: stretch;
+  animation-duration: 10s;
 }
 .top-bar h1 {
   font-size: 4rem;
