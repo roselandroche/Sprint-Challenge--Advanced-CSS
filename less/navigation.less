@@ -1,1 +1,28 @@
 // Navigation code here
+
+
+.top-bar {
+    width: 100%;
+    .flex-column();
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: @wild-sand;
+
+    animation-name: stretch;
+    animation-duration: 10s;
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    nav {
+
+        a{
+            text-decoration: none;
+            font-size: 1.6rem;
+            color: @btn-bg-color;
+            margin: 0 15px;
+        }
+    }
+}

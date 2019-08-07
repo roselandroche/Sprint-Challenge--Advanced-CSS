@@ -1,1 +1,29 @@
 // Mixins Here
+
+.flex-column () {
+    display: flex;
+    flex-direction: column;
+}
+
+.rounded () {
+    border-radius: 5px;
+}
+
+.image () {
+    width: 28%;
+    margin: 20px 2.5%;
+    border-radius: 20px;
+    height: 100%;
+}
+
+.btn-class(@width, @background, @text){
+    width: @width;
+    background-color: @background;
+    color: @text;
+    
+    
+    &:hover{
+      background-color: @text;
+      color: @background;
+      }
+  }
